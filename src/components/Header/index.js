@@ -1,32 +1,14 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import React from "react";
+import Navigation from "../Navigation";
 
-function Header(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+function Header() {
+  //   const [contactSelected, setContactSelected] = useState(false);
+
   return (
     <div>
-      <h1>Michael Kendrick</h1>
+      <h1 className="h1">Michael Kendrick</h1>
       <nav>
-        <ul>
-          <li>
-            <a href="#projects" onClick={() => setContactSelected(false)}>
-              Projects
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact Me</span>
-          </li>
-          <a href="resume">Resume</a>
-        </ul>
+        <Navigation></Navigation>
       </nav>
     </div>
   );
