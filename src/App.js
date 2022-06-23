@@ -39,14 +39,6 @@ function App() {
       {renderPage()}
       <Footer />
     </div>
-    // <div>
-    //   <Header></Header>
-    //   <AboutMe></AboutMe>
-    //   <Portfolio></Portfolio>
-    //   <Contact></Contact>
-    //   <Resume></Resume>
-    //   <Footer></Footer>
-    // </div>
   );
 }
 
