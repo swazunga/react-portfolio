@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -31,11 +30,8 @@ function App() {
 
   return (
     <div>
-      <Header />
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+
       {renderPage()}
       <Footer />
     </div>

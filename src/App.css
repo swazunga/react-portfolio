@@ -8,8 +8,11 @@
 }
 
 .nav-item {
-  color: blue;
   list-style-type: none;
+}
+
+.nav-link {
+  color: palevioletred;
 }
 
 .h1 {
