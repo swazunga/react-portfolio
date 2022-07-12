@@ -1,3 +1,7 @@
+:root {
+  background-color: lightblue;
+}
+
 .App {
   text-align: center;
 }
@@ -17,9 +21,14 @@
 
 .h1 {
   color: red;
+  text-align: center;
+}
+
+Project {
+  display: flex;
 }
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }

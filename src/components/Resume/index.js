@@ -1,7 +1,14 @@
 import React from "react";
 
 function Resume() {
-  return <h1>Resume</h1>;
+  return (
+    <div>
+      <h1 className="resumeHeader">Resume</h1>
+      <a className="resumeLink" href="./resume" download>
+        Click here
+      </a>
+    </div>
+  );
 }
 
 export default Resume;

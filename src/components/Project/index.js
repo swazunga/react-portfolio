@@ -5,8 +5,10 @@ function Project(props) {
     <>
       <h1>{props.title}</h1>
       <img src={props.image} alt={props.title} />
+      <br></br>
       <a href={props.githubLink}>github</a>
-      <a href={props.deployLink}>deploy site</a>
+      <br></br>
+      <a href={props.deployLink}>deployed site</a>
     </>
   );
 }
