@@ -39,6 +39,12 @@ function Portfolio() {
       githubLink: "https://github.com/swazunga/advice-generator",
       deployLink: "https://swazunga.github.io/advice-generator/",
     },
+    {
+      title: "Raging Raymond",
+      image: "./raging.png",
+      githubLink: "https://github.com/swazunga/raging-raymond-project",
+      deployLink: "https://raging-raymond.herokuapp.com/registration",
+    },
   ];
   return (
     <div>
